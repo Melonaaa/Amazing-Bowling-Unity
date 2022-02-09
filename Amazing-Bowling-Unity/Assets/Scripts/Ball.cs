@@ -67,4 +67,9 @@ public class Ball : MonoBehaviour
 
         return damage;
     }
+
+    private void OnDestroy()
+    {
+        GameManager._Instance.OnBallDestroy();
+    }
 }
