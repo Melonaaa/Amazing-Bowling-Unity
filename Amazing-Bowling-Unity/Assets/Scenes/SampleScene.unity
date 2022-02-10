@@ -898,8 +898,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba2d50012b008504681cffd8bec1aa62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _VerticalRotateSpeed: 360
-  _HorizontalRotateSpeed: 360
+  _VerticalRotateSpeed: 150
+  _HorizontalRotateSpeed: 150
   _BallShooter: {fileID: 1373691321}
 --- !u!114 &1373691321
 MonoBehaviour:
@@ -913,7 +913,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd120533b5da2864cb64e8e55f611d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _Cam: {fileID: 0}
+  _Cam: {fileID: 1718364586}
   _Ball: {fileID: 8270985800311990512, guid: 955270d42fe09dd43a5f3d603484cd41, type: 3}
   _FirePos: {fileID: 1953925559}
   _PowerSlider: {fileID: 1023764050}

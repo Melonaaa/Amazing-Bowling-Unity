@@ -13,8 +13,8 @@ public class ShooterRotator : MonoBehaviour
     }
 
     private RotateState _state = RotateState.Idle;
-    public float _VerticalRotateSpeed = 360f;
-    public float _HorizontalRotateSpeed = 360f;
+    public float _VerticalRotateSpeed = 150f;
+    public float _HorizontalRotateSpeed = 150f;
 
     public BallShooter _BallShooter;
 

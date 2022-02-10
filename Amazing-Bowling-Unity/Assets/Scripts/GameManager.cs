@@ -86,7 +86,7 @@ public class GameManager : MonoBehaviour
 
         // Play
         _IsRoundActive = true;
-        _ReadyPannel.SetActive(true);
+        _ReadyPannel.SetActive(false);
         _ShooterRotator.enabled = true;
         _Cam.SetTarget(_ShooterRotator.transform, CamFollow.State.Ready);
         while(_IsRoundActive)
